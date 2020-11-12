@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="calculator">
+        <div class="input-wrapper">
+          <input disabled class="result" id="display"  value="0" />
+        </div>
+        <div class="calc-button">
+        <div class="tag"><button class="key clear-btn" id="CE">CE</button></div>
+        <div class="tag"><button class="key clear-btn" id="C">C</button></div>
+        <div class="tag"><button class="key math-operation">/</button></div>
+        <div class="tag"><button class="key math-operation">*</button></div>
+        <div class="tag"><button class="key number">7</button></div>
+        <div class="tag"><button class="key number">8</button></div>
+        <div class="tag"><button class="key number">9</button></div>
+        <div class="tag"><button class="key math-operation">-</button></div>
+        <div class="tag"><button class="key number">4</button></div>
+        <div class="tag"><button class="key number">5</button></div>
+        <div class="tag"><button class="key number">6</button></div>
+        <div class="tag"><button class="key math-operation">+</button></div>
+        <div class="tag"><button class="key number">1</button></div>
+        <div class="tag"><button class="key number">2</button></div>
+        <div class="tag"><button class="key number">3</button></div>
+        <div class="tag" id="equal-1"><button class="key math-operation equal" id="equal">=</button></div>
+        <div class="tag" id="zero"><button class="key number">0</button></div>
+        <div class="tag"><button class="key decimal" id="decimal">.</button></div>
+    </div>
+      </div>
+    </div>
+    <script src="action.js"></script>
+  </body>
 </html>
